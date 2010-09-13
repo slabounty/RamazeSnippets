@@ -1,9 +1,9 @@
 require 'rubygems'
 require 'sequel'
 
-# Open the library's database. This must be done before we access the models
+# Open the snippets's database. This must be done before we access the models
 # that use it.
 Sequel.connect(ENV['DATABASE_URL'] || 'sqlite://snippets.sqlite')
 
-# Here go your requires for models:
+# All of the models are defined in this next file.
 require 'model/models'
