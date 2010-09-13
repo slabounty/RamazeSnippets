@@ -1,1 +1,3 @@
 A simple Ramaze application that allows a user to create syntax highlighted snippets. It uses Syntaxi http://syntaxi.rubyforge.org/ to do the syntax highlighting. 
+
+This exercise is base on http://blog.zerosum.org/2008/7/2/clone-pastie-with-sinatra-datamapper-redux which does exactly the same thing using Sinatra and Datamapper. I've even taken quite a bit of the css and xhtml.
