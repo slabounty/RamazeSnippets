@@ -1,0 +1,22 @@
+<p>
+    <div class="snippet">
+        <!-- Display the title -->
+        <div class="stitle">
+            Snippet: #{@snippet.title}
+        </div>
+
+        <!-- Display the snippet proper -->
+        <div class="sbody" id="content">
+            <!-- Is this class correct??!!!?? Check the original. -->
+            <div class="syntax syntax_ruby">
+                #{@snippet_highlight}
+            </div>
+        </div>
+
+        <!-- Display the date that the snippet was created at. -->
+        <div class="sdate">
+            Created at: #{@snippet.created_at}
+        </div>
+    </div>
+</p>
+

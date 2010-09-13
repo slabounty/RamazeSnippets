@@ -1,0 +1,1 @@
+A simple Ramaze application that allows a user to create syntax highlighted snippets. It uses Syntaxi http://syntaxi.rubyforge.org/ to do the syntax highlighting. 

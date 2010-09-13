@@ -1,0 +1,23 @@
+#{flashbox}
+<form id="snippet" method="post">
+    <fieldset>
+        <legend> New Snippet </legend>
+        <div>
+            <!-- Input for the title. -->
+            <label for="title">Title:</label>
+            <input id="title" name="title" type="text" />
+            <br/>
+
+            <!-- Input for the snippet using a textarea. -->
+            <label for="snippet">Snippet:</label>
+            <div id="snippet">
+                <textarea id="snippet" name="snippet" type="text" rows="20" cols="120"></textarea>
+            </div>
+            <br/>
+
+            <!-- Submit the snippet (this should result in it being saved in the database -->
+            <input type="submit" value="Save" />
+        </div>
+    </fieldset>
+</form>
+
